@@ -1,0 +1,39 @@
+body {
+  background-color: #d1e1ed;
+  padding: 25px;
+}
+
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.react-kanban-column {
+  background-color: #5f95bf;
+}
+
+.react-kanban-card {
+  background-color: #ec6c00e0;
+  color: white;
+}
+
+.react-kanban-card__title {
+  font-size: large;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.react-kanban-card--dragging {
+  transform: rotate(90deg);
+  background-color: #ec6c00e0;
+  color: white;
+}
+
+.react-kanban-column-header {
+  color: white !important;
+}
